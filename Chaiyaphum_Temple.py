@@ -80,4 +80,4 @@ with open(f'วัดใน{ProvinceName}.csv', "w", encoding='utf-8') as f:
         # SpliteName = re.split("\s", TempleName)
         f.write(TempleName + "\n")
 
-    f.write(f'วัดใน{ProvinceName}มี {len(TempleName_list)} สถานที่')
+    #f.write(f'วัดใน{ProvinceName}มี {len(TempleName_list)} สถานที่')
